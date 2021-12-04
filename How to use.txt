@@ -1,0 +1,18 @@
+Write file that contains binary values. Drag and drop this file to the bit_reader.exe,
+and it creates "a" file from the binary values.
+
+FILES
+
+  Bit reader only reads values on one source at the moment.
+  You can give the file source by writing the path to the file into the arguments.
+
+CUSTOM FILE NAME
+
+  If you want to give custom file name, give the program argument
+  -o, or --output and after that the desired output filename.
+
+CHANGE THE ENDIANNESS
+
+  If you want to switch the endianness use
+  -e, or --endianness and after that the desired endianness.
+  Supported keywords are "big", and "little".
