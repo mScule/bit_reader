@@ -1,5 +1,11 @@
 x86 Windows HelloWorld program in binary.
 
+It is created from the helloworld_x86_windows_hex.txt file.
+To check that the hexdump file actually contains the right program
+assemble the helloworld_x86_windows.asm and compare its output in hex editor
+with the hexdump so you really see that the hex file is not some malicious
+program.
+
 01001101 01011010 10010000 00000000
 00000011 00000000 00000000 00000000
 00000100 00000000 00000000 00000000
